@@ -1,0 +1,21 @@
+.pointer {
+  cursor: pointer;
+}
+
+p {
+  font-size: 12px;
+}
+
+.list-group{
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.list-group-item:last-child {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}

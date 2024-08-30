@@ -1,0 +1,8 @@
+<div class="container-caps">
+  <ng-container *ngFor="let style of styles">
+    <div class="card-style" *ngIf="styleSelected != style.value" (click)="changeStyle(style.value)">
+      <img class="img-style" [src]="style.image" alt="">
+      <p class="text-style">{{ style.name }}</p>
+    </div>
+  </ng-container>
+</div>

@@ -1,0 +1,33 @@
+.container-caps {
+  position: fixed;
+  bottom: 40px;
+  left: 20px;
+  background-color: white;
+  border-radius: 15px;
+  height: 150px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-style{
+  cursor: pointer;
+}
+
+.img-style {
+  width: 80px !important;
+  height: 80px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  background-repeat: no-repeat !important;
+  border-radius: 10px;
+}
+
+.text-style{
+  margin: 0px;
+  font-size: 15px;
+  text-align: center;
+}
